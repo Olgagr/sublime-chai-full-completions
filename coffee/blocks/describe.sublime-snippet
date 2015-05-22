@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-describe "${1:suite}", ->
+describe '${1:suite}', ->
 	$2
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
