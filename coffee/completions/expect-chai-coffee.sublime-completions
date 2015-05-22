@@ -1,6 +1,6 @@
 {
    "scope": "source.coffee",
-   "version": "0.10",
+   "version": "0.11",
    "completions":
    [
     { "trigger": "expect", "contents": "expect(${1:value}).to.$0" },
@@ -27,6 +27,8 @@
     { "trigger": "expect.to.be.arguments", "contents": "expect(${1:value}).to.be.arguments ${2:value}$0" },
     { "trigger": "expect.to.equal", "contents": "expect(${1:value}).to.equal ${2:value}$0" },
     { "trigger": "expect.to.not.equal", "contents": "expect(${1:value}).to.not.equal ${2:value}$0" },
+    { "trigger": "expect.to.deep.equal", "contents": "expect(${1:value}).to.deep.equal ${2:value}$0" },
+    { "trigger": "expect.to.not.deep.equal", "contents": "expect(${1:value}).to.not.deep.equal ${2:value}$0" },
     { "trigger": "expect.to.eql", "contents": "expect(${1:value}).to.eql ${2:value}$0" },
     { "trigger": "expect.to.not.eql", "contents": "expect(${1:value}).to.not.eql ${2:value}$0" },
     { "trigger": "expect.to.be.above", "contents": "expect(${1:value}).to.be.above ${2:value}$0" },
